@@ -1,0 +1,209 @@
+/* Main Style */
+
+body {
+	background-color: #F3F3F3;
+	font-size: 100%;
+	color: #333;
+}
+
+html * {
+	color: #000;
+}
+
+a {
+	color: #343434 !important;
+}
+
+p  {
+	line-height: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 1em 0;
+}
+
+
+.wrapper {
+	width: 1118px;
+	margin: 0 auto;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	line-height: 1.6em;
+}
+
+/* Header Style */
+
+#header {
+    left: auto;
+    margin: 0 auto;
+    padding: 40px 0 0;
+    position: fixed;
+    top: 0;
+    width: 1118px;
+    z-index: 999;
+    background-color: #fff;
+    border-bottom: 1px solid #F2F2F2;
+	transition: padding 0.3s ease-out 0s;
+    -moz-transition: padding 0.3s ease-out 0s;
+    -webkit-transition: padding 0.3s ease-out 0s;
+    -o-transition: padding 0.3s ease-out 0s;
+}
+
+
+#header h1 {
+	color: #343434;
+	padding: 0;
+	text-align:center;
+}
+
+#header .head_wrapper {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+    display: table;
+    margin-bottom: 40px;
+    padding: 0 75px;
+    width: 100%;
+    transition: margin-bottom 0.3s ease-out 0s;
+    -moz-transition: margin-bottom 0.3s ease-out 0s;
+    -webkit-transition: margin-bottom 0.3s ease-out 0s;
+    -o-transition: margin-bottom 0.3s ease-out 0s;
+}
+
+#header .head_wrapper .ico_text {
+		display: none;
+	}
+
+#header .head_wrapper .icon_menu:before {
+		font-size: 1em;
+	    height: 75px;
+	    line-height: 75px;
+	    width: 18px;
+	    transition: all 0.3s ease 0s;
+	    -moz-transition: all 0.3s ease 0s;
+	    -webkit-transition: all 0.3s ease 0s;
+	    -o-transition: all 0.3s ease 0s;
+	}
+
+#header .head_wrapper .title_wrapper {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+	}
+
+
+#header .head_wrapper .title_wrapper h1 .logo {
+	display: inline-block;
+    height: 75px;
+    max-width: 100%;
+    transition: height 0.3s ease 0s;
+    -moz-transition: height 0.3s ease 0s;
+    -webkit-transition: height 0.3s ease 0s;
+    -o-transition: height 0.3s ease 0s;
+	}
+
+#header .head_wrapper .title_wrapper h1	.logo_title {
+	font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    height: 0;
+    letter-spacing: 1px;
+    line-height: 1em;
+    opacity: 0;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: opacity 0.3s ease-out 0s;
+    -moz-transition: opacity 0.3s ease-out 0s;
+    -webkit-transition: opacity 0.3s ease-out 0s;
+    -o-transition: opacity 0.3s ease-out 0s;
+	}
+
+/* OnScroll Header Style */
+
+#header.shrink {
+    padding: 20px 0 0;
+}
+
+
+/*#header.shrink h1 {
+	color: #343434;
+	padding: 0;
+	text-align:center;
+}*/
+
+#header.shrink .head_wrapper {
+    margin-bottom: 10px;
+    transition: margin-bottom 0.3s ease-out 0s;
+    -moz-transition: margin-bottom 0.3s ease-out 0s;
+    -webkit-transition: margin-bottom 0.3s ease-out 0s;
+    -o-transition: margin-bottom 0.3s ease-out 0s;
+}
+
+#header.shrink .head_wrapper .icon_menu:before {
+	    height: 25px;
+	    line-height: 25px;
+	    }
+
+#header.shrink .head_wrapper .title_wrapper h1 .logo {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease 0s;
+    -moz-transition: height 0.3s ease 0s;
+    -webkit-transition: height 0.3s ease 0s;
+    -o-transition: height 0.3s ease 0s;
+	}
+
+#header.shrink .head_wrapper .title_wrapper h1	.logo_title {
+	font-size: 12px;
+    height: auto;
+    opacity: 1;
+    overflow: visible;
+    transition: opacity 0.3s ease-out 0s;
+    -moz-transition: opacity 0.3s ease-out 0s;
+    -webkit-transition: opacity 0.3s ease-out 0s;
+    -o-transition: opacity 0.3s ease-out 0s;
+	}
+
+/* End Header Scroll Style */
+#content {
+	position: relative;
+}
+
+.main_img_wrapper {
+	padding-top: 156px;
+	height: 525px;
+    left: auto;
+    top: 0;
+    text-align: center;
+    width: 1118px;
+}
+.main_img {
+	height: 525px;
+	overflow: hidden;
+	width: 1118px;
+	max-width: 100%;
+}
+
+.main_img img {
+	height: 606px;
+    top: -40px;
+    width: 1118px;
+    max-width: 100%;
+    position: relative;
+}
+
+.content_wrapper {
+	margin-top: 75px;
+	background-color: #fff;
+	padding: 75px;
+}
+
+.content_wrapper article {
+	padding: 75px 150px;
+}
+
+.content_wrapper article h2 {
+	padding-top: 0;
+}
