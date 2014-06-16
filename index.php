@@ -66,7 +66,7 @@
 							we’ve developed and validated while helping big companies act faster and startups grow bigger.
 							This new Responsive OS enables any organization to quickly sense and respond to shifts in culture,
 							customer expectations, competition, and technology; ultimately becoming stronger in the face of 
-							continual disruption.</p>
+							continual disruption. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nobis, nisi perferendis quos optio quia provident magnam quasi, architecto culpa incidunt qui ut consequuntur magni, esse. Voluptate, beatae, laudantium. Magnam.</p>
 						<p>We help leaders transform how their organizations operate through strategy and implementation. 
 							At the heart of our work is what we call the Responsive OS, an organizational operating system 
 							we’ve developed and validated while helping big companies act faster and startups grow bigger.
